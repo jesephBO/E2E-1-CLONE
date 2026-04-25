@@ -33,10 +33,5 @@ public class Review {
 
     @Column(nullable = false, columnDefinition = "VARCHAR(255)")
     private String comment;
-
-
-
-
-
 }
 
