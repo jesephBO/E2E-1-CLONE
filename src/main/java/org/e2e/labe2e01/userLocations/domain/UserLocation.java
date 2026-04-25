@@ -24,7 +24,6 @@ public class UserLocation {
     @MapsId("coordinateId")
     private Coordinate coordinate;
 
-    private String description;
     public UserLocation(Passenger passenger, Coordinate coordinate, String description) {
         this.passenger = passenger;
         this.coordinate = coordinate;
